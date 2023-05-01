@@ -5,20 +5,19 @@ const styles = StyleSheet.create({
     margin: 5,
     fontSize: 15,
     fontWeight: 'bold',
-    
 },
 
 container: {
     alignItems: "center",
     justifyContent: "center",
-    
 },
 
 cardFilmes: {
   backgroundColor: "red",
   alignItems: "center",
   justifyContent: "center",
-  maxWidth: 400,
+  width: 400,
+  maxHeight: 720,
   margin: 15,
   borderRadius: 15
 
@@ -48,9 +47,9 @@ subtitulo: {
 
 sinopse: {
   color: 'black',
-  textAlign: 'center',
-  marginBottom: '5%',
-  maxWidth: 390
+  textAlign: 'left',
+  marginBottom: 10,
+  maxWidth: 350
 
 },
 
@@ -66,7 +65,7 @@ button: {
   backgroundColor: 'black',
   margin: 10,
   alignItems: 'center',
-  justifyContent: 'center'
+  justifyContent: 'center',
 },
 
 buttonText: {
